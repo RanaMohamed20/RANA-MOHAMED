@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: fit-content;
+    overflow-x: hidden;
+}
+/*============Header===============*/
+.my-name{
+    border: 2px solid black;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    margin-left: 300px;
+    margin-right: 350px;
+}
+.fa-heart{
+    margin: 0 20px;
+    color: grey;
+}
+.fa-user{
+    color: grey;
+}
+.fa-shopping-cart{
+    color: grey;
+}
+.fa-user:hover{
+    color: black;
+}
+.fa-shopping-cart:hover{
+    color: black;
+}
+.fa-heart:hover{
+    color: black;
+}
+.two{
+    border-radius: 50%;
+    background-color: #7971ea;
+    width:20px;
+    height: 20px;
+    position: absolute;
+    top: 40px;
+    color: white;
+}
+/*============End Header===============*/
+/*==============Navbar============*/
+.nav-link{
+    color: black;
+    font-size: 14px;
+}
+.nav-link:hover{
+    color:#7971ea;
+}
+.navbar-nav{
+    margin: auto;
+    width: 400px;
+}
+/*==============EndNavbar============*/
+/*==============section1=============*/
+
+/*=============End section1=============*/
+/*==============section2=============*/
+.country{
+    border: 1px solid rgba(128, 128, 128, 0.322);
+    width: 370px;
+    height: fit-content;
+    padding: 11px;
+    margin-bottom: 20px;
+}
+/*=============End section2=============*/
+/*==============Footer============*/
+.btn{
+    background:#7971ea;
+    color: white;
+    border-radius: 5px;
+}
+.btn:hover{
+    color: white;
+    transform: scale(1.01);
+}
+h6{
+    font-weight: 600;
+}
+/*==============EndFooter============*/
+
+
+@media only screen and (max-width: 992px) {
+    .country{
+        margin-left: 16px;
+        margin-top: 20px;
+    }
+}

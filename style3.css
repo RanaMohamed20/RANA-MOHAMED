@@ -1,0 +1,150 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: fit-content;
+    overflow-x: hidden;
+}
+/*============Header===============*/
+.my-name{
+    border: 2px solid black;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    margin-left: 300px;
+    margin-right: 350px;
+}
+.fa-heart{
+    margin: 0 20px;
+    color: grey;
+}
+.fa-user{
+    color: grey;
+}
+.fa-shopping-cart{
+    color: grey;
+}
+.fa-user:hover{
+    color: black;
+}
+.fa-shopping-cart:hover{
+    color: black;
+}
+.fa-heart:hover{
+    color: black;
+}
+.two{
+    border-radius: 50%;
+    background-color: #7971ea;
+    width:20px;
+    height: 20px;
+    position: absolute;
+    top: 40px;
+    color: white;
+}
+/*============End Header===============*/
+/*==============Navbar============*/
+.nav-link{
+    color: black;
+    font-size: 14px;
+}
+.nav-link:hover{
+    color:#7971ea;
+}
+.navbar-nav{
+    margin: auto;
+    width: 400px;
+}
+/*==============EndNavbar============*/
+/*==============aside============*/
+.categories{
+    border: 1px solid rgba(116, 114, 114, 0.425);
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+}
+.btn{
+    height: 42px;
+}
+.filter{
+    border: 1px solid rgba(116, 114, 114, 0.425);
+    width: 255px;
+    height: fit-content;
+    padding: 20px;
+}
+
+
+h5{
+    color: purple;
+    text-align: center;
+}
+/*==============End aside============*/
+/*==============section1============*/
+
+.collection-images{
+    position: relative;
+    filter: brightness(0.5);
+}
+.collection-images:hover{
+    transform: scale(1.08);
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.collection{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    color: rgb(238, 230, 230);
+    font-weight: bold;
+    font-size: 15px;
+}
+.gender{
+    position: absolute;
+    bottom: 0px;
+    left: 45px;
+    color: rgb(255, 255, 255);
+    font: 700px;
+    font-size: 35px;
+}
+.line{
+    border: 1 solid purple ;
+    background-color: purple;
+    width: 40px;
+    height: 3px;
+    margin: auto;
+}
+h3{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+/*==============EndSection1============*/
+/*==============Footer============*/
+.btn{
+    background:#7971ea;
+    color: white;
+    border-radius: 5px;
+}
+.btn:hover{
+    color: white;
+    transform: scale(1.01);
+}
+h6{
+    font-weight: bold;
+}
+
+/*==============EndFooter============*/
+@media only screen and (max-width: 992px) {
+    .collection-images{
+        margin-top: 25px;
+    }
+    .card{
+        margin-top: 25px;
+    }
+}
+

@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: fit-content;
+    overflow-x: hidden;
+}
+/*============Header===============*/
+.my-name{
+    border: 2px solid black;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    margin-left: 300px;
+    margin-right: 350px;
+}
+.fa-heart{
+    margin: 0 20px;
+    color: grey;
+}
+.fa-user{
+    color: grey;
+}
+.fa-shopping-cart{
+    color: grey;
+}
+.fa-user:hover{
+    color: black;
+}
+.fa-shopping-cart:hover{
+    color: black;
+}
+.fa-heart:hover{
+    color: black;
+}
+.two{
+    border-radius: 50%;
+    background-color: #7971ea;
+    width:20px;
+    height: 20px;
+    position: absolute;
+    top: 40px;
+    color: white;
+}
+
+/*============End Header===============*/
+/*==============Navbar============*/
+.nav-link{
+    color: black;
+    font-size: 14px;
+}
+.nav-link:hover{
+    color:#7971ea;
+}
+.navbar-nav{
+    margin: auto;
+    width: 400px;
+}
+/*==============EndNavbar============*/
+/*==============Section1============*/
+.line2{
+    border: 1 solid #7971ea ;
+    background-color: #7971ea;
+    width: 40px;
+    height: 3px;
+}
+h4{
+    color: rgba(0, 0, 0, 0.829);
+    font-weight: 450;
+    margin:20px 0;
+}
+section .container .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*==============EndSection1============*/
+/*==============Section2============*/
+.line3{
+    border: 1 solid #434344 ;
+    background-color: #5a5a5a;
+    width: 40px;
+    height: 3px;
+    margin: auto;
+    margin-top: 50px;
+}
+h3{
+    color: rgba(0, 0, 0, 0.829);
+    font-weight: 450;
+    margin:10px 0;
+    text-align: center;
+}
+.team{
+    border-radius: 50%;
+}
+/*==============EndSection2============*/
+/*==============Section3============*/
+h6{
+    font-weight: bold;
+}
+.fa-truck{
+    color: rebeccapurple;
+    font-size: 30px;
+    transform: scaleX(-1);
+}
+.fa-redo-alt{
+    color: rebeccapurple;
+    font-size: 30px;
+}
+.fa-question-circle{
+    color: rebeccapurple;
+    font-size: 30px;
+}
+/*==============EndSection3============*/
+/*==============Footer============*/
+
+.btn{
+    background:#7971ea;
+    color: white;
+    border-radius: 5px;
+}
+.btn:hover{
+    color: white;
+    transform: scale(1.01);
+}
+/*==============EndFooter============*/
+
+
+@media only screen and (max-width: 992px) {
+    .blog{
+        width: 400px;
+        margin-bottom: 25px;
+    }
+}

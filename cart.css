@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: fit-content;
+    overflow-x: hidden;
+}
+/*============Header===============*/
+.my-name{
+    border: 2px solid black;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    margin-left: 300px;
+    margin-right: 350px;
+}
+.fa-heart{
+    margin: 0 20px;
+    color: grey;
+}
+.fa-user{
+    color: grey;
+}
+.fa-shopping-cart{
+    color: grey;
+}
+.fa-user:hover{
+    color: black;
+}
+.fa-shopping-cart:hover{
+    color: black;
+}
+.fa-heart:hover{
+    color: black;
+}
+.two{
+    border-radius: 50%;
+    background-color: #7971ea;
+    width:20px;
+    height: 20px;
+    position: absolute;
+    top: 40px;
+    color: white;
+}
+
+/*============End Header===============*/
+/*==============Navbar============*/
+.nav-link{
+    color: black;
+    font-size: 14px;
+}
+.nav-link:hover{
+    color:#7971ea;
+}
+.navbar-nav{
+    margin: auto;
+    width: 400px;
+}
+/*==============EndNavbar============*/
+
+/*==============section1============*/
+.fa-times{
+    color: rgb(255, 255, 255);
+    width: 10px;
+    height: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #7971ea;
+    margin-left:30px ;
+    margin-top: 20px;
+    
+}
+.table{
+    height: 100px;
+}
+.number{
+    border: 1px solid;
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 20px;
+}
+.input{
+    height: 40px;
+}
+.sign:hover{
+    background-color: rebeccapurple;
+}
+
+/*============== Endsection1============*/
+/*==============Footer============*/
+.btn{
+    background:#7971ea;
+    color: white;
+    border-radius: 5px;
+}
+.btn:hover{
+    color: white;
+    transform: scale(1.01);
+}
+/*==============EndFooter============*/
